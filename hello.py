@@ -66,3 +66,4 @@ print(result_q)
 quiz2 = '02-123-4567'
 result_q2 = quiz2.split('-')[0]
 print(result_q2)
+
