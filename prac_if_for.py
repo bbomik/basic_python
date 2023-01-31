@@ -21,5 +21,21 @@ print(f'{num}은 {result}입니다.')
 ##두 결과는 동일
 
 
+
 ##예제2 : for문
 ##기본형
+a_list = [1,3,2,5,1,2]
+b_list = []
+
+for a in a_list:
+    b_list.append(a*2)
+
+print(b_list)
+
+##응용형
+a_list = [1,3,2,5,1,2]
+b_list = [a*2 for a in a_list]
+
+print(b_list)
+
+##두 결과는 동일
